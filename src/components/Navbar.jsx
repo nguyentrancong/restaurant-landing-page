@@ -5,7 +5,6 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -27,16 +26,16 @@ const Navbar = () => {
     { text: "Cart", icon: <ShoppingCartRoundedIcon /> },
   ];
   return (
-    <nav>
+    <nav class="navbar">
       <div className="nav-logo-container">
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="./Home">Home</a>
+        <a href="./Home">Bookings Now</a>
         <a href="./About">About</a>
-        <a href="">Testimonials</a>
+        <a href="./Testimonial">Testimonials</a>
         <a href="./Contact">Contact</a>
-        <a href="">
+        <a href="null">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button">Bookings Now</button>
