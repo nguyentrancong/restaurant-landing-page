@@ -14,3 +14,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Result
 
 [View PDF](./restaurant-landing.pdf)
+
+### Demo: https://nguyentrancong.github.io/restaurant-landing-page/
